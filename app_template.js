@@ -1,8 +1,8 @@
 //your code here!
 let id = '620610814'
-document.getElementById("button-compute").addEventListener("submit", displayModID);
+document.getElementById("button-compute").addEventListener("click", displayModID);
 
 function displayModID(){
     const input = document.getElementById("input-number").innerHTML
-    console.log('input')
+    console.log(id+input)
 }
